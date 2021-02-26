@@ -19,6 +19,10 @@ Android](https://docs-android.blotout.io)
 [![image](/assets/images/ios.svg)
 iOS](https://docs-ios.blotout.io)
 
+{:.split}
+[![image](/assets/images/rust.svg)
+Rust / C++](https://docs-rust.blotout.io)
+
 ## About Blotout
 Blotout increases conversions by letting companies capture every user with a customer data platform deployed in their own cloud.
 
