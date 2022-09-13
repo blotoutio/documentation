@@ -32,6 +32,6 @@ There are few pre-requisites that you need to have two start the process of Self
 ### Blotout infrastructure
 1. Email ID - Your preferred mail ID to provision an AWS account. 
 
-** Note: **This mail ID should have never been used to create an AWS account before.
+**Note:** This mail ID should have never been used to create an AWS account before.
 
 # Deployment

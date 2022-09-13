@@ -51,3 +51,11 @@ The first step is to create the organization under Blotout SSO. For this, a pipe
     export SECRET_KEY=$(curl --silent --header "Authorization: Bearer ${TOKEN}" --header "Content-Type: application/vnd.api+json" https://app.terraform.io/$(curl --silent --header "Authorization: Bearer ${TOKEN}" --header "Content-Type: application/vnd.api+json" https://app.terraform.io/api/v2/workspaces/${WORKSPACE_ID}/current-state-version-outputs | jq -r '.data[] | select(.attributes.name=="iam_user_details") | .links.self') | jq '.data.attributes.value["secret-key"]' --raw-output | base64 -d | gpg --decrypt)
     ```
 8. You have your keys in the environment variable `ACCESS_KEY` and `SECRET_KEY`.
+
+# Links
+1. Terraform organization
+2. Workspace in terraform organization
+3. Variable sets
+4. Variables in workspace
+5. Output
+6. Starting new run
