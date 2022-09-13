@@ -13,3 +13,13 @@ After we have our client's organization created under the Blotout SSO, we will n
         5. `aws_region` - region preferred by client
         6. `blotout_app_release_version` - current stable version of self-serve
         7. `logging_level_com_blot` - (preferrable value: `DEBUG`)
+
+# Links
+1. [Terraform organization](../terraform/organization.md)
+2. [Workspace in terraform organization](../terraform/workspace.md)
+3. [Variable sets](../terraform/variable_sets.md)
+4. [Workspace variables](../terraform/workspace_variables.md)
+5. [Starting new run](../terraform/action.md#starting-new-run)
+6. [Output](../terraform/action.md#output)
+7. [Google SSO](../client/sso.md)
+8. [Slack](../client/slack.md)

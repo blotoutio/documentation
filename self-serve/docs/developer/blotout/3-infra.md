@@ -19,4 +19,13 @@ In this step we will provision the hardware infrastructure required by the organ
         3. `organization_name` - this will consists of the client's preferred orgnization name and the env type separated by `_`. It is the name of the EKS cluster and other resources in AWS. For e.g. if the env is `dev` and organization name is `goldilocks` then output will be `goldilocks_dev`
         4. `region` - client's preferred region
     - From above only `loadbalancer` is useful for client. Rest other are less useful.
-    
+
+# Links
+1. [Terraform organization](../terraform/organization.md)
+2. [Workspace in terraform organization](../terraform/workspace.md)
+3. [Variable sets](../terraform/variable_sets.md)
+4. [Workspace variables](../terraform/workspace_variables.md)
+5. [Starting new run](../terraform/action.md#starting-new-run)
+6. [Output](../terraform/action.md#output)
+7. [Google SSO](../client/sso.md)
+8. [Slack](../client/slack.md)

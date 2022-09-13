@@ -25,4 +25,14 @@ In this step we will provision the application on the deployed hardware.
     - Below variables are present in the output
         1. `web_application_url` - url for blotout UI
         2. `airflow_url` - url for airflow UI
-5. Using the `administrator_email` we can now sign up in URL given by `web_application_url`    
+5. Using the `administrator_email` we can now sign up in URL given by `web_application_url`.
+
+# Links
+1. [Terraform organization](../terraform/organization.md)
+2. [Workspace in terraform organization](../terraform/workspace.md)
+3. [Variable sets](../terraform/variable_sets.md)
+4. [Workspace variables](../terraform/workspace_variables.md)
+5. [Starting new run](../terraform/action.md#starting-new-run)
+6. [Output](../terraform/action.md#output)
+7. [Google SSO](../client/sso.md)
+8. [Slack](../client/slack.md)
