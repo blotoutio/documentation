@@ -35,3 +35,5 @@ There are few pre-requisites that you need to have two start the process of Self
 **Note:** This mail ID should have never been used to create an AWS account before.
 
 # Deployment
+1. If you follow **Blotout Infrastructure** start from [here](./developer/blotout/1-organization.md)
+2. If you follow **Client Infrastructure** then you can skip the first step and start from [here](./developer/blotout/2-organization.md)
