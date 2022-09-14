@@ -45,6 +45,10 @@ In this step we will provision the SDK under the client's domain.
 7. Click on `Actions` and then `Start new run` to start a new run.
 8. To verify the changes, hit the `/sdk/v1/geo/city` endpoint over client's domain `<domain>`. This will give your geo location.
 
+
+## Next step
+[Hosting the CDN](./6-cdn.md)
+
 # Links
 - [Workspace in terraform organization](../terraform/workspace.md)
 - [Workspace variables](../terraform/workspace_variables.md)

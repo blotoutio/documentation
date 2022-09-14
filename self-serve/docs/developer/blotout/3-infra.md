@@ -20,6 +20,9 @@ In this step we will provision the hardware infrastructure required by the organ
         4. `region` - client's preferred region
     - From above only `loadbalancer` is useful for client. Rest other are less useful.
 
+## Next step
+[Provision the application](./4-app.md)
+
 # Links
 - [Workspace in terraform organization](../terraform/workspace.md)
 - [Workspace variables](../terraform/workspace_variables.md)

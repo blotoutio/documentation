@@ -27,6 +27,9 @@ In this step we will provision the application on the deployed hardware.
         2. `airflow_url` - url for airflow UI
 5. Using the `administrator_email` we can now sign up in URL given by `web_application_url`.
 
+## Next step
+[Provision the SDK](./5-sdk.md)
+
 # Links
 - [Workspace in terraform organization](../terraform/workspace.md)
 - [Workspace variables](../terraform/workspace_variables.md)

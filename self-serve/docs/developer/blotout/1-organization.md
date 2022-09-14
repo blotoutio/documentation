@@ -52,6 +52,9 @@ The first step is to create the organization under Blotout SSO. For this, a pipe
     ```
 8. You have your keys in the environment variable `ACCESS_KEY` and `SECRET_KEY`.
 
+## Next step
+[Creating the terraform organization](./2-organization.md)
+
 # Links
 - [Terraform organization](../terraform/organization.md)
 - [Workspace in terraform organization](../terraform/workspace.md)

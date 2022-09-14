@@ -14,6 +14,9 @@ After we have our client's organization created under the Blotout SSO, we will n
         6. `blotout_app_release_version` - current stable version of self-serve
         7. `logging_level_com_blot` - (preferrable value: `DEBUG`)
 
+## Next step
+[Provision the hardware infrastructure](./3-infra.md)
+
 # Links
 - [Terraform organization](../terraform/organization.md)
 - [Variable sets](../terraform/variable_sets.md)
