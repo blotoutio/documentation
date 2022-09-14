@@ -46,11 +46,7 @@ In this step we will provision the SDK under the client's domain.
 8. To verify the changes, hit the `/sdk/v1/geo/city` endpoint over client's domain `<domain>`. This will give your geo location.
 
 # Links
-1. [Terraform organization](../terraform/organization.md)
-2. [Workspace in terraform organization](../terraform/workspace.md)
-3. [Variable sets](../terraform/variable_sets.md)
-4. [Workspace variables](../terraform/workspace_variables.md)
-5. [Starting new run](../terraform/action.md#starting-new-run)
-6. [Output](../terraform/action.md#output)
-7. [Google SSO](../client/sso.md)
-8. [Slack](../client/slack.md)
+- [Workspace in terraform organization](../terraform/workspace.md)
+- [Workspace variables](../terraform/workspace_variables.md)
+- [Starting new run](../terraform/action.md#starting-new-run)
+- [Output](../terraform/action.md#output)

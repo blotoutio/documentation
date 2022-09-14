@@ -53,11 +53,9 @@ The first step is to create the organization under Blotout SSO. For this, a pipe
 8. You have your keys in the environment variable `ACCESS_KEY` and `SECRET_KEY`.
 
 # Links
-1. [Terraform organization](../terraform/organization.md)
-2. [Workspace in terraform organization](../terraform/workspace.md)
-3. [Variable sets](../terraform/variable_sets.md)
-4. [Workspace variables](../terraform/workspace_variables.md)
-5. [Starting new run](../terraform/action.md#starting-new-run)
-6. [Output](../terraform/action.md#output)
-7. [Google SSO](../client/sso.md)
-8. [Slack](../client/slack.md)
+- [Terraform organization](../terraform/organization.md)
+- [Workspace in terraform organization](../terraform/workspace.md)
+- [Variable sets](../terraform/variable_sets.md)
+- [Workspace variables](../terraform/workspace_variables.md)
+- [Starting new run](../terraform/action.md#starting-new-run)
+- [Output](../terraform/action.md#output)
