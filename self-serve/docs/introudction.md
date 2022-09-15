@@ -27,7 +27,8 @@ There are few pre-requisites that you need to have two start the process of Self
 ### Client infrastructure
 1. AWS access key
 2. AWS secret key
-3. Giving the following access to the user with above access key and secret key
+3. Account ID
+4. Giving the following access to the user with above access key and secret key
 
 ### Blotout infrastructure
 1. Email ID - Your preferred mail ID to provision an AWS account. 
