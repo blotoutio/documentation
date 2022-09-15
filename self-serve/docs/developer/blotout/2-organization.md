@@ -2,6 +2,8 @@
 
 After we have our client's organization created under the Blotout SSO, we will now create the terraform organization for our client.
 
+**Note:** You would have skipped the first step if you are following **Client Infrastructure** deployment strategy. For more on this read the [introduction](../../introudction.md#client-infrastructure)
+
 1. Create a terraform organization with the client's organization name prefixed with `client-`. For e.g. when organization name is `goldilocks` the terraform organization name for the client will be `client-goldilocks`.
 2. Create a variable set with the name of the envrionment. If organization's environment is `dev` then create a variable set `dev-varset`.
     - In the workspaces section of the variable set we can select any of the two options `Apply to all workspaces in this organization` or `Apply to specific workspaces` for now. We will change this option later.

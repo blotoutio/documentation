@@ -474,3 +474,14 @@ By default any user created in AWS doesn't have any permissions. We need to crea
 4. Replace `<REGION>` with the **Region** and `<ACCOUNT_ID>` with the **Account ID** in the above JSON policy document.
 5. Click on **Next: Tags** and **Next: Review**. You can add tags if you want.
 6. Name the policy as `self-serve-db-policy` and use the following image to fill in the details and then click **Create Policy**. ![Extra policy](../images/aws/iam_user_extra_policy.png)
+
+## Attaching policies to the IAM user
+1. Go to console and click on **IAM**.
+2. Click on **Users** and then click on the user you created in the previous [step](./user.md). Taking the previous example name of the user is `blotout`.
+3. Click on **Add Permissions** to attach the permissions to the user `blotout`. ![Add Permissions](../images/aws/iam_user_attach_permissions.png)
+4. Click on **Attach existing policies directly** and then filter the policies by searching **self-serve**. Select all the policies that we created above. ![Add Policies](../images/aws/iam_user_add_policies.png)
+5. Click on **Next: Review** and then **Add Permissions**.
+6. Your user (user credentials) now has the required permissions.
+
+## Next steps
+[Blotout Deployment](../blotout/2-organization.md)
